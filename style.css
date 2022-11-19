@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url(img.png);
+   height: 100vh;
+   background-size: 100% 100%;
+}
+
+
+
+.box {
+    position: relative;
+    width: 380px;
+    height: 420px;
+    background-image: linear-gradient(pink, blue, yellow);
+    opacity: 0.10;
+    border-radius: 9px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: black 2px blue 2px 5px;
+}
+
+.box:hover {
+    background: #fff;
+    opacity: 0.8;
+    color: black;
+}
+
+label {
+    font-weight: 700;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    margin-left: 30%;
+    margin-top: 10px;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.form {
+    padding: 30px;
+}
+
+.app {
+    /* background: linear-gradient(red,yellow,green); */
+    background: -webkit-linear-gradient(blue, rgb(125, 4, 4), green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
